@@ -12,6 +12,8 @@
 		AC27247B2278561400F3509F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2724792278561400F3509F /* Main.storyboard */; };
 		AC27247D2278561600F3509F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC27247C2278561600F3509F /* Assets.xcassets */; };
 		AC2724802278561600F3509F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC27247E2278561600F3509F /* LaunchScreen.storyboard */; };
+		AC2724882278567800F3509F /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2724872278567800F3509F /* Triangle.swift */; };
+		AC27248A2278581600F3509F /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2724892278581600F3509F /* Line.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AC27247C2278561600F3509F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC27247F2278561600F3509F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC2724812278561600F3509F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC2724872278567800F3509F /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		AC2724892278581600F3509F /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				AC2724752278561400F3509F /* AppDelegate.swift */,
 				AC2724772278561400F3509F /* ViewController.swift */,
+				AC2724872278567800F3509F /* Triangle.swift */,
+				AC2724892278581600F3509F /* Line.swift */,
 				AC2724792278561400F3509F /* Main.storyboard */,
 				AC27247C2278561600F3509F /* Assets.xcassets */,
 				AC27247E2278561600F3509F /* LaunchScreen.storyboard */,
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2724882278567800F3509F /* Triangle.swift in Sources */,
+				AC27248A2278581600F3509F /* Line.swift in Sources */,
 				AC2724782278561400F3509F /* ViewController.swift in Sources */,
 				AC2724762278561400F3509F /* AppDelegate.swift in Sources */,
 			);
@@ -283,7 +291,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SP8ZAT56L5;
 				INFOPLIST_FILE = GravityTriangleBuilder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +310,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SP8ZAT56L5;
 				INFOPLIST_FILE = GravityTriangleBuilder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
